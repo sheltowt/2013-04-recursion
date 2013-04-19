@@ -11,6 +11,7 @@ describe("stringifyJSON", function(){
     weirdObjects.forEach(function(obj){
       var result = stringifyJSON(obj);
       var expected = JSON.stringify(obj);
+      debugger;
       expect(result).toEqual(expected);
     });
 
